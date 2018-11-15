@@ -1,0 +1,21 @@
+{
+  "name": "tugas_pak_rheo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node lib/index.js",
+    "build": "./node_modules/.bin/babel src -d lib"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.5",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/preset-env": "^7.1.5"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
