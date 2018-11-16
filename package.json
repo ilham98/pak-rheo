@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "node lib/index.js",
-    "build": "./node_modules/.bin/babel src -d lib"
+    "build": "./node_modules/.bin/babel src -d lib",
+    "test2": "node ./lib.1/index.js",
+    "build2": "./node_modules/.bin/babel src.1 -d lib.1"
   },
   "author": "",
   "license": "ISC",
@@ -13,9 +15,13 @@
     "@babel/cli": "^7.1.5",
     "@babel/core": "^7.1.5",
     "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/plugin-transform-react-jsx": "^7.1.6",
     "@babel/preset-env": "^7.1.5"
   },
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "jsdom": "^13.0.0",
+    "json-pretty-html": "^1.2.0",
+    "react": "^16.6.3"
   }
 }

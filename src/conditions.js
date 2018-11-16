@@ -12,13 +12,13 @@ const condition_2 = {
         min: 0, max: 4, val: 0, mt: null
     },
     second: {
-        min: 0, max: 2.99, val: 0, mt: 3
+        min: 0, max:3, val: 0, mt: 3
     }
 }
 
 const condition_3 = {
     first: {
-        min: 0.5, max: 4, val: 0, mt: 'half'
+        min: 2, max: 4, val: 0, mt: 'half'
     },
     second: {
         min: 0, max: 3, val: 0, mt: null
@@ -30,7 +30,7 @@ const condition_4 = {
         min: 0, max: 4, val: 0, mt: null
     },
     second: {
-        min: 0.5, max: 3, val: 0, mt: 'half'
+        min: 2, max: 3, val: 0, mt: 'half'
     }
 }
 
@@ -121,8 +121,17 @@ const condition_12 = {
 const conditions = [
     condition_1,
     condition_2,
-    condition_3,
-    condition_4,
+    // condition_3,
+    // condition_4,
+    condition_5,
+    condition_6,
+    condition_7,
+    condition_8,
+    condition_9,
+    condition_10,
+    condition_11,
+    condition_12
+   
 ]                
 
 export default conditions
